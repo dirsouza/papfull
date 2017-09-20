@@ -1,0 +1,25 @@
+{
+    "name": "dirsouza/papfull",
+    "authors": [
+        {
+            "name": "Diogo Souza",
+            "email": "diogo.souza@msn.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "slim/slim": "2.6.3",
+        "phpmailer/phpmailer": "5.2.22",
+        "mpdf/mpdf": ">=7.0.0-beta2",
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.2",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "jansenfelipe/utils": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PapFull\\": "vendor\\papfull\\classes\\src"
+        }
+    }
+}

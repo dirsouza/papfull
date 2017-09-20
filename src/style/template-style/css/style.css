@@ -1,0 +1,9 @@
+.txtrigth {
+    display: inline-block;
+    float: right;
+    margin: 0 auto;
+}
+.uppercase-transforme {
+    text-transform: uppercase;
+}
+

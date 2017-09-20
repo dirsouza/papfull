@@ -1,0 +1,21 @@
+{
+  "name": "dirsouza/classes",
+  "minimum-stability": "dev",
+  "type": "library",
+  "description": "Classes PHP",
+  "homepage": "https://github.com/dirsouza/papfull",
+  "authors": [
+    {
+      "name": "Diogo Souza",
+      "email": "diogo.souza@msn.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
